@@ -100,6 +100,15 @@
     background: #0D1825;
   }
 
+  .hero-video-wrap::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+    background: transparent;
+  }
+
   /* YouTube iframe hero */
   .hero-video-wrap iframe {
     position: absolute;
